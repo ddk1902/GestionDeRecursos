@@ -1,13 +1,16 @@
 table {
     width: 100%;
-    margin-left: 20px;
-    margin-right: 20px;
+
+    
   }
 
   th{
-    width: 5%;
+    width: 15%;
   }
-
+  td{
+    width: 15%;
+  }
+  
   .pointer{
     cursor: pointer;
   }

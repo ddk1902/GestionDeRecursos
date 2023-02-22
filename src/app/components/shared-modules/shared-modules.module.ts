@@ -13,6 +13,10 @@ import {MatIconModule} from '@angular/material/icon';
 import { HttpClientModule } from '@angular/common/http';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatPaginatorModule} from '@angular/material/paginator';
+import {MatSortModule} from '@angular/material/sort';
+import {MatCardModule} from '@angular/material/card';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatSelectModule} from '@angular/material/select';
 @NgModule({
   declarations: [],
   imports: [
@@ -29,7 +33,11 @@ import {MatPaginatorModule} from '@angular/material/paginator';
     HttpClientModule,
     MatTableModule,
     MatTooltipModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatSortModule,
+    MatCardModule,
+    MatGridListModule,
+    MatSelectModule
  
   ],
   exports:[
@@ -46,7 +54,11 @@ import {MatPaginatorModule} from '@angular/material/paginator';
     HttpClientModule,
     MatTableModule,
     MatTooltipModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatSortModule,
+    MatCardModule,
+    MatGridListModule,
+    MatSelectModule
 
   ]
 })
